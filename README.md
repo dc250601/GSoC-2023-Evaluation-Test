@@ -48,22 +48,31 @@ Validation **AUC: 0.7980**
 We have trained the following models as a part of the evaluation test:-
 - C<sub>4</sub>: A 19 layer deep network with C<sub>4</sub> equivariance
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C4.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/h34bera8?workspace=user-dc250601)
 - C<sub>8</sub>: A 19 layer deep network with C<sub>8</sub> equivariance
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C8.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/h7k0lrqi?workspace=user-dc250601)
 - D<sub>4</sub>: A 19 layer deep network with D<sub>4</sub> equivariance
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D4.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/8hur7zps?workspace=user-dc250601)
 - D<sub>8</sub>: A 19 layer deep network with D<sub>8</sub> equivariance
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D8.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/azixgk4c?workspace=user-dc250601)
 - C<sub>4</sub>_lite: A lighter version(Parameters reduced) of the C<sub>4</sub> network
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C4_lite.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/hqauau5y?workspace=user-dc250601)
 - C<sub>8</sub>_lite: A lighter version(Parameters reduced) of the C<sub>8</sub> network
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C8_lite.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/w3gdhrx1?workspace=user-dc250601)
 - D<sub>4</sub>_lite: A lighter version(Parameters reduced) of the D<sub>4</sub> network
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D4_lite.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/w3gdhrx1?workspace=user-dc250601)
 - D<sub>8</sub>_lite: A lighter version(Parameters reduced) of the D<sub>8</sub> network
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D8_lite.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/5x8db3cw?workspace=user-dc250601)
 - Non_Equivariant: A 19 layer deep network with similar architecture.
   * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/Non_equivariant.ipynb)
+  * [![WandB](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)](https://wandb.ai/dc250601/Equivariant/runs/bc417kut?workspace=user-dc250601)
 
 
 
