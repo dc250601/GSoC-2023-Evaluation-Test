@@ -81,10 +81,13 @@ We have trained the following models as a part of the evaluation test:-
 
 
 ### Result:
-Validation **AUC: 0.7980**
-| Loss | AUC | Learning Rate |
-| --- | --- | --- |
-| ![Loss graph (Specific Task)](readme_images/Vit_Loss.png) | ![AUC graph (Specific Task)](readme_images/Vit_AUC.png) | ![Loss graph (Specific Task)](readme_images/VIT_LR.png) |
+| Model 	| Peak-AUC 	| Model 	| Peak-AUC 	|
+|:---:	|:---:	|:---:	|:---:	|
+| C4 	| 79.29 	| C4_lite 	| 79.34 	|
+| C8 	| 79.52 	| C8_lite 	| 79.34 	|
+| D4 	| 79.54 	| D4_lite 	| 79.41 	|
+| D8 	| 79.52 	| D8_lite 	| 79.46 	|
+| CNN 	| 79.51 	|  	|  	|
 
 
 ## Discussions:
