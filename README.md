@@ -10,6 +10,13 @@
 &emsp; ADAM with Reduce Learning on Plateau. The model was made to train for 100 epochs. The checkpoints were collected from epoch no 22 since it had the highest Validation AUC.
 ### Result:
 Validation **AUC: 0.8224**
+We have trained the following models as a part of the evaluation test:-
+- Pytorch
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/dc250601/GSoC-2023-Evaluation-Test/blob/c9ec6f303f8e9b144ff9c8002a8325dca7b1a138/Common-I/Pytorch%20Training.ipynb)
+- Tensorflow
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/dc250601/GSoC-2023-Evaluation-Test/blob/c9ec6f303f8e9b144ff9c8002a8325dca7b1a138/Common-I/Tensorflow%20Training.ipynb)
+
+
 | Loss | AUC |
 | --- | --- |
 | ![Loss graph (common I)](readme_images/Common_I_Loss.png) | ![AUC graph (common I)](readme_images/Common_I_Auc.png) |
@@ -27,6 +34,10 @@ Validation **AUC: 0.8224**
 
 ### Result:
 Validation **AUC: 0.7980**
+We have trained the following models as a part of the evaluation test:-
+- Efficient Net architecture
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://github.com/dc250601/GSoC-2023-Evaluation-Test/blob/c9ec6f303f8e9b144ff9c8002a8325dca7b1a138/Common%20-%20II/Training.ipynb)
+
 | Loss | AUC | Learning Rate |
 | --- | --- | --- |
 | ![Loss graph (common II)](readme_images/common_II_Loss.png) | ![AUC graph (common II)](readme_images/common_II_AUC.png) | ![Learning Rate graph (common II)](readme_images/common_2_lr.png) |
@@ -91,4 +102,4 @@ We have trained the following models as a part of the evaluation test:-
 
 
 ## Discussions:
-&emsp; Although the ViT architecture is the new State of the Art for image classification still we obtained a lesser AUC compared to the CNN. This is due to the fact that Visual Image Transformer was not pre-trained and the dataset was not sufficient to get State of the Art results form the ViT.
+&emsp; The Particle Images in reality is SE(2) Equivariant by to keep things simple we used the C<sub>n</sub> and D<sub>n</sub> groups. Since convolution operation is translational equivariant we can use C<sub>n</sub> and D<sub>n</sub> with large values of n to mimic SE(2) equivariance. </br> Keeping the number of layers and channels fixed we see that we get better performance on increasing the Equivariance level in our network. D<sub>n</sub> has a much greater degree of symmetry in comparison to C<sub>n</sub> and hence we see better performance with D<sub>n</sub>. Moreover as we increase n the AUC scores go up suggesting that Equivariance is indeed helping. The Equivariant networks have slightly greater performance than the Non-Equivariant ones. The margin of imporvement should increase with a larger dataset sicne most of the Equivariant networks tend to overfit due to higher learning capacity than CNNs.
