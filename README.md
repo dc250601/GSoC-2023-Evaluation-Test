@@ -46,15 +46,24 @@ Validation **AUC: 0.7980**
 * Dihedral group (D<sub>n</sub>): The group of symmetries of a regular polygon which includes rotation and reflections.</br>
 
 We have trained the following models as a part of the evaluation test:-
-* C<sub>4</sub>: A 19 layer deep network with C<sub>4</sub> equivariance
-* C<sub>8</sub>: A 19 layer deep network with C<sub>8</sub> equivariance
-* D<sub>4</sub>: A 19 layer deep network with D<sub>4</sub> equivariance
-* D<sub>8</sub>: A 19 layer deep network with D<sub>8</sub> equivariance
-* C<sub>4</sub>_lite: A lighter version(Parameters reduced) of the C<sub>4</sub> network
-* C<sub>8</sub>_lite: A lighter version(Parameters reduced) of the C<sub>8</sub> network
-* D<sub>4</sub>_lite: A lighter version(Parameters reduced) of the D<sub>4</sub> network
-* D<sub>8</sub>_lite: A lighter version(Parameters reduced) of the D<sub>8</sub> network
-* Non_Equivariant: A 19 layer deep network with similar architecture.
+- C<sub>4</sub>: A 19 layer deep network with C<sub>4</sub> equivariance
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C4.ipynb)
+- C<sub>8</sub>: A 19 layer deep network with C<sub>8</sub> equivariance
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C8.ipynb)
+- D<sub>4</sub>: A 19 layer deep network with D<sub>4</sub> equivariance
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D4.ipynb)
+- D<sub>8</sub>: A 19 layer deep network with D<sub>8</sub> equivariance
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D8.ipynb)
+- C<sub>4</sub>_lite: A lighter version(Parameters reduced) of the C<sub>4</sub> network
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C4_lite.ipynb)
+- C<sub>8</sub>_lite: A lighter version(Parameters reduced) of the C<sub>8</sub> network
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/C8_lite.ipynb)
+- D<sub>4</sub>_lite: A lighter version(Parameters reduced) of the D<sub>4</sub> network
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D4_lite.ipynb)
+- D<sub>8</sub>_lite: A lighter version(Parameters reduced) of the D<sub>8</sub> network
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/D8_lite.ipynb)
+- Non_Equivariant: A 19 layer deep network with similar architecture.
+  * [![Notebook](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](./Equivariant/Non_equivariant.ipynb)
 
 
 
